@@ -1,0 +1,112 @@
+0:
+  knnc:
+    k: 5
+    min_k: 1
+  knnp:
+    k: 5
+    min_k: 1
+  knnsmd:
+    k: 5
+  knnta:
+    k: 5
+  mf:
+    L: 5
+    alpha: 0.001
+    lambda: 0.05
+    steps: 500
+  mfsr:
+    L: 2
+    alpha: 0.001
+    beta: 0.05
+    lambda: 0.01
+    steps: 1000
+  slopeone: {}
+  svd:
+    n_epochs: 10
+    n_factors: 5
+    reg_pu: 0.005
+    reg_qi: 0.005
+1:
+  knnc:
+    k: 2
+    min_k: 1
+  knnp:
+    k: 2
+    min_k: 1
+  knnsmd:
+    k: 3
+  knnta:
+    k: 5
+  mf:
+    L: 3
+    alpha: 0.001
+    lambda: 0.02
+    steps: 3000
+  mfsr:
+    L: 3
+    alpha: 0.001
+    beta: 0.1
+    lambda: 0.02
+    steps: 3000
+  slopeone: {}
+  svd:
+    n_epochs: 1000
+    n_factors: 5
+    reg_pu: 0.001
+    reg_qi: 0.001
+2:
+  knnc:
+    k: 2
+    min_k: 1
+  knnp:
+    k: 2
+    min_k: 1
+  knnsmd:
+    k: 2
+  knnta:
+    k: 2
+  mf:
+    L: 2
+    alpha: 0.001
+    lambda: 0.05
+    steps: 1000
+  mfsr:
+    L: 3
+    alpha: 0.0001
+    beta: 0.2
+    lambda: 0.05
+    steps: 3000
+  slopeone: {}
+  svd:
+    n_epochs: 1000
+    n_factors: 2
+    reg_pu: 0.001
+    reg_qi: 0.001
+3:
+  knnc:
+    k: 2
+    min_k: 1
+  knnp:
+    k: 2
+    min_k: 1
+  knnsmd:
+    k: 2
+  knnta:
+    k: 2
+  mf:
+    L: 5
+    alpha: 0.001
+    lambda: 0.05
+    steps: 3000
+  mfsr:
+    L: 2
+    alpha: 0.001
+    beta: 0.1
+    lambda: 0.02
+    steps: 1000
+  slopeone: {}
+  svd:
+    n_epochs: 1000
+    n_factors: 2
+    reg_pu: 0.001
+    reg_qi: 0.001
